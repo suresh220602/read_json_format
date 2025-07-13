@@ -1,0 +1,43 @@
+{
+  "rental_id": "RNT2045",
+  "rented_on": "2025-07-01T14:45:00Z",
+  "member": {
+    "member_id": 302,
+    "full_name": "Alice Smith",
+    "contact": {
+      "phone": "+1-416-555-0192",
+      "email": "alice.smith@example.ca"
+    },
+    "membership_type": "Premium"
+  },
+  "books": [
+    {
+      "book_id": "B0012",
+      "title": "Deep Learning with Python",
+      "author": "François Chollet",
+      "rental_days": 14
+    },
+    {
+      "book_id": "B0098",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "rental_days": 7
+    }
+  ],
+  "return_due": "2025-07-15T18:00:00Z",
+  "status": "active",
+  "fines": {
+    "accumulated": 0.00,
+    "currency": "CAD"
+  },
+  "notes": [
+    {
+      "tag": "first_time_renter",
+      "description": "Member's first book rental"
+    },
+    {
+      "tag": "promotion_applied",
+      "description": "10% discount on rental fee"
+    }
+  ]
+}
